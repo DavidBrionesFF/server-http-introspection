@@ -1,0 +1,30 @@
+{
+  "serverName": "Server File",
+  "port": 9000,
+  "pathFile": "/home/files/",
+  "routes": [
+    {
+      "path":"/example",
+      "response": {
+        "type": "text/html",
+        "file": "app.html"
+      },
+      "request":{
+        "username": "david",
+        "password": "1234"
+      }
+    },
+
+    {
+      "path":"/css",
+      "response": {
+        "type": "text/css",
+        "file": "app.css"
+      },
+      "request":{
+        "username": "david",
+        "password": "1234"
+      }
+    }
+  ]
+}
